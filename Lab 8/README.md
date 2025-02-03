@@ -10,7 +10,7 @@ This project is an implementation of a Making Change program using both C and AR
 - Designed to run on the 32F429IDISCOVERY board.
 
 ## Function details 
-('void Bills(uint32_t dollars, BILLS *paper)')
+( 'void Bills(uint32_t dollars, BILLS *paper)' )
 - Computes the number of $20, $10, $5, and $1 bills.
 - Uses integer division (/) in the initial implementation.
 - Replaces division with reciprocal multiplication and bitwise shifts in assembly.
