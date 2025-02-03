@@ -3,8 +3,6 @@
 ## **Overview**
 This repository contains an ARM Assembly implementation of **bit manipulation functions** for handling Tetris-like shapes stored in a 4x4 bit array. The project is part of Lab 7E: Tetris & Gyroscopes and is designed to work with an STM32F429 microcontroller. The implementation replaces two weakly-defined C functions with optimized ARM assembly versions.
 
-##Lea
-
 ## **Project Description**
 The main program stores the layout of Tetris shapes as a 16-bit variable, treating it as a 4x4 bit matrix. The provided assembly code optimizes two core functions:
 
