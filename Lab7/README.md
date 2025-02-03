@@ -35,12 +35,12 @@ The two functions, `GetBit` and `PutBit`, are implemented in ARM Assembly with b
 - **Retrieves** the specific bit from the calculated address.
 
 ### **PutBit Function**
-- **Computes** the memory-mapped address for a given bit.
+- Computes the memory-mapped address for a given bit.
 - Writes the specified bit value using bit-banding.
-###Score System
+### Score System
 - 1 point per placed shape.
 - 100 points for clearing a row.
-###Controls
+### Controls
 - Button Press: Rotate shape 90 degrees clockwise.
 - Tilt Left/Right: Move shape horizontally.
 - Fast Tilt Down: Drop shape immediately.
